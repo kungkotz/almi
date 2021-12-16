@@ -1,0 +1,95 @@
+body {
+    font-family: 'Sofia Pro', sans-serif;
+}
+.logo {
+    background-color: #F2F2F2;
+}
+.login-container {
+    background-color: #F2F2F2;
+}
+.login-btn {
+    background-color: #870AA0;
+    color: #FFFFFF;
+    font-size: 5vh;
+    border: 0;
+}
+.hero-container {
+    background-color: #CCCCCC;
+    color: #FFFFFF;
+}
+
+.categories {
+    color: #FFFFFF;
+}
+
+.riskkapital-wrapper {
+    background-color: #FFAFE1;
+  }
+
+.riskkapital {
+    background-color: #FA1996;
+}
+
+.foretagslan-wrapper {
+    background-color: #AAE6FF;
+  }
+
+
+.foretagslan {
+    background-color: #23C3FF;
+}
+
+.affarsutveckling-wrapper {
+    background-color: #CD9BD7;
+  }
+.affarsutveckling {
+    background-color: #870AA0;
+}
+.apply-container {
+    background-color: #CCCCCC;
+}
+.apply-btn 
+{
+    background-color: #FFAFE1;
+    color: white;
+    font-size: 7vh;
+}
+
+.how-does-it-work {
+    background-color: #00F0AF;
+    color: #FFFFFF;
+}
+
+.why-almi {
+    background-color: #F2F2F2;
+}
+
+.about-almi {
+    color: #FFFFFF;
+    background-color: #2819FF;
+}
+
+.social-proof {
+    color: #FFFFFF;
+    background-color: #870AA0;
+}
+
+.social-proof h6 {
+    font-weight: 100;
+}
+
+
+.guarantees {
+    color: #FFFFFF;
+    font-style: italic;
+    background-color: #4D52C8;
+}
+
+.guarantees p {
+    font-weight: 100;
+}
+
+
+
+
+
