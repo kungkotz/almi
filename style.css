@@ -25,7 +25,7 @@ body {
     background-color: #870AA0;
     color: #FFFFFF;
     font-size: 5vh;
-    border: 0;
+    
 }
 
 .hero-container {
@@ -68,6 +68,8 @@ body {
     background-color: #FFAFE1;
     color: white;
     font-size: 7vh;
+    border-radius: 2px;
+    border-color: gray;
 }
 
 .how-does-it-work {
