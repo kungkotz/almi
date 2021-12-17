@@ -1,9 +1,23 @@
 body {
     font-family: 'Sofia Pro', sans-serif;
 }
+
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  ;
+  }
+.navbar {
+    background-color: #F2F2F2;
+}
 .logo {
     background-color: #F2F2F2;
 }
+
 .login-container {
     background-color: #F2F2F2;
 }
@@ -13,13 +27,15 @@ body {
     font-size: 5vh;
     border: 0;
 }
+
 .hero-container {
     background-color: #CCCCCC;
-    color: #FFFFFF;
+    color: #FFFFFF; 
 }
 
 .categories {
     color: #FFFFFF;
+    background-color: #F2F2F2;
 }
 
 .riskkapital-wrapper {
@@ -33,7 +49,6 @@ body {
 .foretagslan-wrapper {
     background-color: #AAE6FF;
   }
-
 
 .foretagslan {
     background-color: #23C3FF;
@@ -85,9 +100,115 @@ body {
     background-color: #4D52C8;
 }
 
-.guarantees p {
+.guarantees h4, h6, p {
     font-weight: 100;
 }
+#sponsors {
+background-image:url()
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-nav   {
+                background: rgba(39, 39, 39, 0.034);
+                border-radius: 15px
+            
+ 
+
+    }
+    .navbar-nav li {
+        overflow: auto;
+        white-space: nowrap;
+        font-size: 1.5rem;
+}
+.login-btn {
+    
+    white-space: nowrap;
+}
+
+    .login-container a{
+        display: none;
+    }
+    .hero-container {
+        background-color: #CCCCCC;
+        color: #FFFFFF;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative; 
+    }
+    .hero-container h1 {
+        position: absolute;
+        top: 80%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .main-container {
+        background-color: #F2F2F2;
+    }
+    .apply-container {
+        background-color: #F2F2F2;
+    }
+
+    .how-does-it-work-wrapper p {
+        display: none;
+    }
+
+
+    .why-almi-wrapper p {
+        display: none;
+    }
+
+    .about-ul li {
+        font-size: 2rem;
+    }
+    .apply-container {
+        background-image: url(assets/images/sponsors-1.jpg)
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .hero-img {
+        display: none;
+    }
+    .main-container h1 {
+        display: none;
+    }
+    .how-does-it-work-wrapper h2 {
+        display: none;
+    }
+    .login-btn {
+        display: none;
+    }
+    .why-almi-wrapper h2 {
+        display: none;
+    }
+
+
+     .how-does-it-work-wrapper 
+        p {
+            font-weight: 400;
+            font-size: 1rem;
+         }
+     
+     .why-almi-wrapper p {
+        font-weight: 400;
+        font-size: 1rem;
+     }
+
+     .about-almi
+    hr {
+        display: none;
+    }
+    
+} 
+
+
+
+
 
 
 
